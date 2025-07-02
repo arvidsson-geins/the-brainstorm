@@ -1,8 +1,4 @@
 import requests
-# https://hooks.slack.com/services/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 NAJS GUYS
-
-#  https://hooks.slack.com/services/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 THE DEVS
-
 def post_to_slack(message: dict):
     """
     Posts a stylish message to a Slack channel using a webhook URL.
@@ -10,8 +6,7 @@ def post_to_slack(message: dict):
     Args:
         message (dict): The last record from the conversation array, containing role, content, speaker, and timestamp.
     """
-    #webhook_url = "https://hooks.slack.com/services/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"
-    webhook_url = "https://hooks.slack.com/services/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"
+    webhook_url = "https://hooks.slack.com/services/XXXXX"
     
     speaker = message.get('speaker', 'Unknown')
     content = message.get('content', '')
