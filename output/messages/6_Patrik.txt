@@ -1,0 +1,36 @@
+role[Patrik] - msg["
+ Hi, I'm Patrik! Sorry to say but my daoughter throw up on me this morning. I'm still here, though!
+"]
+
+role[Kevin] - msg["
+ "Well, that's a new one!  I've got a pretty bad allergy to projectile vomit - makes my skin crawl just thinking about it."   I chuckle nervously. "Speaking of allergies, did you hear about the latest outbreak of Glitter Flu? Apparently, it's highly contagious and causes severe itching... I swear, this year is testing my immune system!" 
+"]
+
+role[Patrik] - msg["
+ "Glitter Flu? Sounds like a party gone wrong!  Hopefully it stays confined to those who love sparkle more than sanity.  What do you think about this Christmas party tonight - worth braving the potential biohazard?" 
+"]
+
+role[Kevin] - msg["
+ "Oh, the Christmas party is definitely worth it, Patrik! But with all these germs flying around, I'm going to have to pack my hazmat suit and a stash of those alcohol-free beers. Gotta stay safe and healthy, you know!" 
+
+
+
+I give him a wink. "Besides, who wants to miss out on the holiday cheer? Unless, of course, it comes with a side of Glitter Flu..."
+"]
+
+role[Patrik] - msg["
+ "Hazmat suit for the win!  Gotta love your commitment to safety, Kevin. And those alcohol-free beers - are they as festive as the real deal?  Either way, I'm in for some cheer - and maybe an escape from my shower that smells faintly of...well, let's just say it wasn't roses."  
+"]
+
+role[Kevin] - msg["
+ "Alcohol-free beers? Festive enough to keep me safe and sober! Plus, gotta watch my health, you know. Wouldn't want to catch something from those sugary eggnogs either - they're practically petri dishes of holiday germs!" 
+
+I chuckle. "At least your shower smells better than that time I got stung by a radioactive bee! Turns out, bees have some weird allergies too, and this one was allergic to...well, everything! It left me with an itchy rash for weeks."
+"]
+
+
+-------
+REPLY:
+[Patrik] - ["
+"A radioactive bee?  Now that's a story I need the full details on later. As for eggnogs, maybe we can stick to those festive punch bowls - less likely to have bee-related side effects, right?" *takes a sip of imaginary beer* "Cheers to staying safe and hydrated at this shindig!" 
+"]

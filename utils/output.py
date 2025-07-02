@@ -11,10 +11,16 @@ def dump_conversation_to_file(conversation, final=False):
         output_file_name = f'conversation_{time.strftime("%Y%m%d-%H%M%S")}.txt'
     output_file = os.path.join(OUTPUT_DIR, output_file_name)
     
+    exchange = 0
+    
     # format the conversation
     with open(output_file, 'w') as f:
         for turn in conversation:
-            f.write(f"-------\n{turn['ts']} - {turn['speaker']}:\n{turn['content']}\n")
+            #check if ts is in the turn
+            if 'ts' in turn:
+                
+                f.write(f"{turn['ts']} - [{exchange}] - {turn['speaker']}: {turn['content']}\n----------------\n")
+                exchange += 1
             
     return output_file
 
@@ -30,9 +36,12 @@ def dump_messages_to_file(messages, reply, name, nr):
     output_file_name = f'{nr}_{name}.txt'
     output_file = os.path.join(OUTPUT_DIR,'messages', output_file_name)
     
+    exchange = 0
+    
     with open(output_file, 'w') as f:
         for msg in messages:
             f.write(f'role[{msg['role']}] - msg["\n {msg['content']}\n"]\n\n')
+            exchange += 1
         f.write(f'\n-------\nREPLY:\n[{name}] - ["\n{reply}\n"]\n')
     
     # print(f"Messages saved to {output_file}")
