@@ -1,6 +1,6 @@
 # The ClearAI Experiment
 
-**Date:** February 2025  
+**Date:** December 2024  
 **Models:** Two Gemma2 instances running locally  
 **Hardware:** MacBook (ran until thermal shutdown)  
 **Duration:** ~1 hour of continuous conversation  
