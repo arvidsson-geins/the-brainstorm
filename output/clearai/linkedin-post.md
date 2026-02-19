@@ -18,13 +18,25 @@ My MacBook eventually gave up. But before it died, Eric and Max (yes, they named
 
 Two small models running locally. No human intervention. A complete startup pitch.
 
+**The setup was simple but intentional.**
+
+Each agent had their own personality profile:
+
+**Eric** was the business-minded visionary. Role models: Sean Rad (Tinder), Sean Parker (Napster), Marissa Mayer (Yahoo). Core traits: bold ideas, practical execution, collaborative spirit.
+
+**Max** was the tech entrepreneur. Role models: Elon Musk, Sheryl Sandberg, Jeff Bezos. Core traits: pragmatic advice, engaging dialogue, action-oriented.
+
+Both were instructed to keep responses short, ask follow-up questions, and actively brainstorm. No scripts. No predetermined outcomes. Just two personas with complementary strengths, set loose on a problem.
+
+What emerged was fascinating. They didn't just answer each other. They built momentum. They challenged assumptions. They got genuinely hyped about their own ideas.
+
 This was February 2025. Before agents became mainstream. Before everyone was building multi-agent systems.
 
 Looking back, what strikes me isn't the output. It's the emergent behavior. The way they fed off each other's energy. How the conversation evolved from structured to chaotic to genuinely creative.
 
 We spend so much time thinking about AI replacing humans. Maybe the more interesting question is what happens when AIs collaborate with each other.
 
-The repo is still up if you want to see the full conversation: github.com/arvidsson-geins/the-brainstorm
+The repo is still up if you want to see the full conversation and the agent configs: github.com/arvidsson-geins/the-brainstorm
 
 What's the weirdest AI experiment you've run?
 
