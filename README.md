@@ -1,5 +1,9 @@
 # Multi-Agent Conversational AI Platform
 
+> **Featured Experiment:** In February 2025, two Gemma2 models used this platform to brainstorm an AI startup together. They talked for an hour, designed a product called "ClearAI," and generated a pitch deck and logo, all without human intervention. The conversation is preserved in [`output/clearai/`](output/clearai/). Read the [full story](output/clearai/README.md).
+
+---
+
 ## Overview
 This project is a multi-agent conversational AI platform where several AI agents, each with unique personalities and expertise, interact with each other in a simulated chat environment. The system leverages vector search (FAISS), context retrieval, and LLMs (via Ollama API) to generate realistic, context-aware conversations. The platform is extensible, allowing for the addition of new agents and data sources.
 
